@@ -16,7 +16,7 @@ print(exampleTable)
 -- table: 000000000065d660
 ```
 
-**Save ltn file from table:
+**Save ltn file from table:**
 ```lua
 local exampleTable = {"Hello", "World"}
 ltn.dump(exampleTable, "example.ltn")
